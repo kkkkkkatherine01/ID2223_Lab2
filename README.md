@@ -19,7 +19,7 @@ LoRA technique, achieving 23% loss reduction through systematic optimization.
 2. Higher learning rate (5e-4) improves convergence by 2%
 3. Larger LoRA rank (r=32) adds 1.4% improvement
 
-[See detailed analysis in EXPERIMENT_REPORT.md]
+[See detailed analysis in EXPERIMENT_REPORT.md](experiments/EXPERIMENT_REPORT.md)
 
 ## Deployment
 - **Model**: [[HuggingFace Link](https://huggingface.co/kkkkkkatherine/llama-3.2-1b-finetome-1000steps-gguf)]
