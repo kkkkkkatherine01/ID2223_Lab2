@@ -18,7 +18,7 @@ LoRA technique, achieving 23% loss reduction through systematic optimization.
 | exp6_lr_5e4 | 500 | 5e-4 | 16 | 0.9216 | ↓21.7% | 26.7 |
 | exp7_lora_r8 | 500 | 2e-4 | 8 | 0.9561 | ↓18.8% | 22.4 |
 | exp8_lora_r32 | 500 | 2e-4 | 32 | 0.9286 | ↓21.1% | 22.6 |
-| exp9_optimal_combination | 1000 | 5e-4 | 32 | 0.8916 | ↓24.27% | 52.1 |
+| exp9_optimal_combination | 1000 | 5e-4 | 32 | 0.8916 | ↓24.3% | 52.1 |
 
 *exp9 combines best parameters from all experiments*
 
