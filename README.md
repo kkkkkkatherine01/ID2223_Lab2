@@ -12,7 +12,7 @@ LoRA technique, achieving 23% loss reduction through systematic optimization.
 | Baseline | 60 | 2e-4 | 16 | 1.177 | 8min |
 | **Best** | 1000 | 2e-4 | 16 | **0.907** | 43min |
 
-![alt text](experiment_comparison-1.png)
+![alt text](experiments/experiment_comparison.png)
 
 ### Key Findings
 1. Training duration is the dominant factor (23% improvement)
