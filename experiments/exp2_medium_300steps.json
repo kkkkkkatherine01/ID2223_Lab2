@@ -1,0 +1,41 @@
+{
+  "experiment_name": "exp2_medium_300steps",
+  "timestamp": "2025-11-24T12:37:32.370991",
+  "config": {
+    "model_name": "Llama-3.2-1B-Instruct",
+    "max_steps": 300,
+    "learning_rate": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 16,
+    "batch_size": 2,
+    "gradient_accumulation_steps": 4
+  },
+  "metrics": {
+    "final_loss": 0.9736288626988728,
+    "total_steps": 300,
+    "training_time_seconds": 795.8441989421844,
+    "training_time_minutes": 13.26406998236974
+  },
+  "model_outputs": [
+    {
+      "question": "What is machine learning?",
+      "answer": "Machine learning is a type of artificial intelligence (AI) that allows computers to learn and improve their performance over time, without being explicitly programmed for each task. It involves training algorithms on data to enable them to make predictions or decisions without human input.\n\nMachine learning can be used in a wide variety of applications, including image and speech recognition, natural language processing, and predictive analytics. It is based on the idea that complex systems can be modeled using mathematical equations, and that these equations can be used to make predictions about future outcomes.\n\nThere are several types of machine learning, including supervised learning, unsupervised learning, and reinforcement learning. Each type has its own strengths and weaknesses, and the choice of which type to use depends on the specific problem being tackled"
+    },
+    {
+      "question": "Explain the difference between supervised and unsupervised learning.",
+      "answer": "Supervised learning and unsupervised learning are two types of machine learning algorithms. In supervised learning, the algorithm is trained to predict a specific target variable based on a set of labeled data points. In contrast, in unsupervised learning, the algorithm is trained to identify patterns or groups within a dataset without any specific target variable.\n\nSupervised learning is based on the assumption that the data points are randomly sampled from a larger population, and the algorithm is trained to predict the target variable based on the patterns or groups that appear in the data points. The goal of supervised learning is to identify the most common or unique patterns or groups in the data, and to predict the target variable accordingly.\n\nUnsupervised learning, on the other hand, is based on"
+    },
+    {
+      "question": "What is overfitting and how can it be prevented?",
+      "answer": "Overfitting occurs when a model is too complex and is fitting the noise in the training data, resulting in poor performance on the test data. This happens when the model is so flexible that it's fitting the random fluctuations in the training data instead of learning the underlying patterns.\n\nOverfitting can be prevented by using techniques such as regularization, feature selection, and cross-validation. Regularization involves adding a penalty term to the loss function to discourage the model from fitting the noise in the training data. Feature selection involves selecting the most important features in the data and not including them in the model. Cross-validation involves splitting the data into training and test sets and using the model to predict the test data.\n\nHere's an example of how overfitting can occur"
+    },
+    {
+      "question": "Describe how neural networks work.",
+      "answer": "A neural network is a computer model inspired by the structure and function of the human brain. It consists of layers of interconnected nodes or \"neurons,\" which are used to recognize and classify patterns in data. Each neuron receives an input from the previous layer and then produces an output based on that input and the weights of its connections to other neurons. This process is repeated for each layer, allowing the network to learn from the data it is trained on."
+    },
+    {
+      "question": "What is the purpose of a validation set?",
+      "answer": "The purpose of a validation set is to ensure that the data being entered into a form or interface has the required information and is consistent with the expected format. A validation set typically includes a set of predefined rules and checks that are applied to the data being entered. These checks can include things like checking that a specific field is filled in, ensuring that a certain number of characters are entered, or verifying that the data conforms to a specific format.\n\nBy using a validation set, you can validate the data being entered into a form or interface before it is actually entered. This can help prevent errors and inconsistencies from arising, and can also provide additional functionality or functionality by ensuring that the data being entered is consistent with the expected format."
+    }
+  ]
+}

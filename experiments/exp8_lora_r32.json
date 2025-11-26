@@ -1,0 +1,41 @@
+{
+  "experiment_name": "exp8_lora_r32",
+  "timestamp": "2025-11-25T14:41:09.549005",
+  "config": {
+    "model_name": "Llama-3.2-1B-Instruct",
+    "max_steps": 500,
+    "learning_rate": 0.0002,
+    "lora_r": 32,
+    "lora_alpha": 32,
+    "batch_size": 2,
+    "gradient_accumulation_steps": 4
+  },
+  "metrics": {
+    "final_loss": 0.928610164642334,
+    "total_steps": 500,
+    "training_time_seconds": 1356.5755331516266,
+    "training_time_minutes": 22.609592219193775
+  },
+  "model_outputs": [
+    {
+      "question": "What is machine learning?",
+      "answer": "Machine learning is a type of artificial intelligence (AI) that allows computers to learn and improve their performance over time, without being explicitly programmed for each task. It involves training algorithms on data to enable them to make predictions or decisions without human intervention.\n\nMachine learning can be used in a wide variety of applications, including image and speech recognition, natural language processing, and predictive analytics. It is based on the idea that complex systems can be modeled using mathematical equations, and that these equations can be used to make predictions about future outcomes.\n\nThere are several types of machine learning, including supervised learning, unsupervised learning, and reinforcement learning. Each type of machine learning has its own strengths and weaknesses, and the choice of which type to use depends on the specific"
+    },
+    {
+      "question": "Explain the difference between supervised and unsupervised learning.",
+      "answer": "Supervised learning is a type of machine learning where the algorithm is trained to recognize and classify patterns in the data. The algorithm is given labeled data, and the goal is to learn a mapping from input data to output labels. The algorithm learns to predict the output label based on the input data, and the output labels are used to train the algorithm for future data.\n\nUnsupervised learning, on the other hand, is a type of machine learning where the algorithm is trained to recognize and identify patterns in the data without any labeled data. The algorithm is given a dataset, and the goal is to identify the underlying structure or pattern in the data. The algorithm learns to recognize and classify patterns in the data without any external guidance.\n\nIn supervised learning, the"
+    },
+    {
+      "question": "What is overfitting and how can it be prevented?",
+      "answer": "Overfitting occurs when a model is too complex and is able to fit the noise in the training data, rather than the underlying patterns. This can happen when the model is too deep or has too many parameters. Overfitting can be prevented by reducing the complexity of the model, by removing parameters, or by using techniques such as regularization and early stopping."
+    },
+    {
+      "question": "Describe how neural networks work.",
+      "answer": "A neural network is a type of machine learning model that mimics the structure and function of the human brain. It consists of interconnected nodes or \"neurons,\" which process information and make predictions based on the data they receive.\n\nHere's a step-by-step explanation of how neural networks work:\n\n1. Input: The first step in a neural network is to receive an input, which is the data that the model is trying to classify or predict.\n\n2. Activation: The input is then passed through a set of activation functions, which are mathematical operations that introduce non-linearity into the model. These activation functions are typically used in the hidden layers of the network.\n\n3. Hidden Layers: The output of the activation functions is then passed through a series of"
+    },
+    {
+      "question": "What is the purpose of a validation set?",
+      "answer": "A validation set is a collection of input values that are being validated against a specific set of rules or constraints. The purpose of a validation set is to ensure that the input values meet the required criteria and are consistent with the rules or constraints being applied.\n\nFor example, if we are building a web application and we want to ensure that a user's email address is valid, we can create a validation set that checks the format of the email address and ensures that it follows certain rules (e.g. it should contain only letters, numbers, and special characters, and it should not contain any whitespace or punctuation marks).\n\nBy using a validation set, we can write more robust and secure code that is easier to understand and maintain."
+    }
+  ]
+}

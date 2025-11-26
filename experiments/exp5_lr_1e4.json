@@ -1,0 +1,41 @@
+{
+  "experiment_name": "exp5_lr_1e4",
+  "timestamp": "2025-11-24T14:06:01.950723",
+  "config": {
+    "model_name": "Llama-3.2-1B-Instruct",
+    "max_steps": 500,
+    "learning_rate": 0.0001,
+    "lora_r": 16,
+    "lora_alpha": 16,
+    "batch_size": 2,
+    "gradient_accumulation_steps": 4
+  },
+  "metrics": {
+    "final_loss": 0.9683702726364136,
+    "total_steps": 500,
+    "training_time_seconds": 1307.1076226234436,
+    "training_time_minutes": 21.78512704372406
+  },
+  "model_outputs": [
+    {
+      "question": "What is machine learning?",
+      "answer": "Machine learning is a type of artificial intelligence (AI) that allows computers to learn and improve their performance over time, without being explicitly programmed for each task. It involves training algorithms on data to enable them to make predictions or decisions without human input.\n\nMachine learning can be used in a wide variety of applications, including image and speech recognition, natural language processing, and predictive analytics. It is based on the idea that complex systems can be modeled using mathematical equations, and that these equations can be used to make predictions about future outcomes.\n\nThere are several types of machine learning, including supervised learning, unsupervised learning, and reinforcement learning. Each type of machine learning has its own strengths and weaknesses, and the choice of which type to use depends on the specific"
+    },
+    {
+      "question": "Explain the difference between supervised and unsupervised learning.",
+      "answer": "Supervised learning and unsupervised learning are two types of machine learning algorithms. In supervised learning, the algorithm is trained on a set of labeled data, where each instance has a corresponding label or target value. The goal is to learn a mapping between input data and output labels, so that the algorithm can make predictions on new, unseen data. In unsupervised learning, the algorithm is trained on a set of unlabeled data, where each instance has a unique label or target value. The goal is to identify patterns or clusters in the data, and to learn a representation of the data that captures its structure and relationships.\n\nIn supervised learning, the algorithm typically uses a combination of linear and nonlinear regression techniques, such as linear regression, logistic regression,"
+    },
+    {
+      "question": "What is overfitting and how can it be prevented?",
+      "answer": "Overfitting occurs when a model is too complex and is fitting the noise in the training data, resulting in poor performance on the test data. This happens when the model is so complex that it's fitting the random fluctuations in the training data, rather than capturing the underlying patterns.\n\nTo prevent overfitting, the following techniques can be used:\n\n1. Regularization: Regularization techniques such as L1 and L2 regularization can be used to prevent overfitting by adding a penalty term to the loss function.\n\n2. Data Preprocessing: Preprocessing techniques such as data normalization or feature scaling can be used to reduce the impact of overfitting.\n\n3. Model Selection: Choosing a suitable model based on the problem and data can help to prevent"
+    },
+    {
+      "question": "Describe how neural networks work.",
+      "answer": "A neural network is a computer model inspired by the structure and function of the human brain. It consists of a series of interconnected nodes or \"neurons,\" which process and transmit information. Each neuron receives one or more inputs, called \"activations,\" and then sends one output.\n\nThe process of neural networks can be broken down into several steps:\n\n1. Input layer: The first layer of the network receives the input data. Each neuron in this layer receives one activation and sends it to the next layer.\n\n2. Hidden layers: The next layer of the network consists of multiple hidden layers, where each neuron receives one activation and sends it to the next layer. These layers are trained on the training data, which allows them to learn patterns and relationships in"
+    },
+    {
+      "question": "What is the purpose of a validation set?",
+      "answer": "A validation set, also known as a form validation set, is a collection of fields and fields that are used to validate a form or a collection of fields. It is a set of fields that are validated together to ensure that the data entered is valid and accurate. The purpose of a validation set is to prevent the submission of invalid data, which can cause errors in the application or database, and to ensure that the data entered is consistent and accurate."
+    }
+  ]
+}

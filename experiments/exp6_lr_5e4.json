@@ -1,0 +1,41 @@
+{
+  "experiment_name": "exp6_lr_5e4",
+  "timestamp": "2025-11-25T13:55:16.633902",
+  "config": {
+    "model_name": "Llama-3.2-1B-Instruct",
+    "max_steps": 500,
+    "learning_rate": 0.0005,
+    "lora_r": 16,
+    "lora_alpha": 16,
+    "batch_size": 2,
+    "gradient_accumulation_steps": 4
+  },
+  "metrics": {
+    "final_loss": 0.921634181022644,
+    "total_steps": 500,
+    "training_time_seconds": 1599.6847457885742,
+    "training_time_minutes": 26.66141242980957
+  },
+  "model_outputs": [
+    {
+      "question": "What is machine learning?",
+      "answer": "Machine learning is a type of artificial intelligence (AI) that allows computers to automatically learn from data, without being explicitly programmed. It uses algorithms to analyze data, identify patterns, and make predictions or decisions based on that data. Machine learning can be used in a variety of applications, such as image and speech recognition, natural language processing, and predictive modeling. It is a key technology behind many modern applications, including self-driving cars, personalized advertising, and healthcare diagnostics."
+    },
+    {
+      "question": "Explain the difference between supervised and unsupervised learning.",
+      "answer": "Supervised learning involves a labeled dataset, where each sample is classified into a specific class. The goal is to predict the class of each sample. In contrast, unsupervised learning does not require labeled data. Instead, it aims to discover hidden patterns or structures in the data. For example, in image classification, supervised learning might use a pre-trained model to predict the class of each image. However, unsupervised learning can be used to identify patterns in unstructured data, such as customer behavior in an e-commerce platform."
+    },
+    {
+      "question": "What is overfitting and how can it be prevented?",
+      "answer": "Overfitting is a common issue in machine learning where a model is too complex and fits the training data perfectly, resulting in poor generalization performance on new data. It occurs when the model is overly specialized to the training data and fails to generalize well to new, unseen data.\n\nTo prevent overfitting, several strategies can be employed:\n\n1. Regularization: Adding a penalty term to the loss function, such as L2 regularization, helps reduce the model's complexity and prevents overfitting.\n\n2. Early stopping: This strategy involves monitoring the model's performance on the validation set during training. Once the model's performance on the validation set starts to degrade, early stopping is used to prevent overfitting.\n\n3. Data augmentation: Adding noise"
+    },
+    {
+      "question": "Describe how neural networks work.",
+      "answer": "Neural networks are a type of artificial neural network (ANN) that is based on the structure and function of the human brain. They are designed to mimic the way that the brain processes and interprets information, and they are commonly used in machine learning and deep learning applications.\n\nA neural network consists of layers of interconnected nodes, or \"neurons,\" that process and transform input data. Each layer of nodes is responsible for a specific task, such as linear transformations, non-linear transformations, or pooling. The final layer of the network is the output layer, where the final results are produced.\n\nIn order to train a neural network, the network is given a set of input data and corresponding output data. The goal is to find the weights and biases of"
+    },
+    {
+      "question": "What is the purpose of a validation set?",
+      "answer": "A validation set is a collection of data that is used to validate the input data provided to a function or a service. Validation sets are typically used to ensure that the input data is consistent with the expected data format or structure. For example, if you're building a function to extract data from a JSON object, you might use a validation set to check that the input data is in the correct format (e.g. a list of objects with a specific structure)."
+    }
+  ]
+}

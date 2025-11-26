@@ -1,0 +1,41 @@
+{
+  "experiment_name": "exp1_baseline_60steps",
+  "timestamp": "2025-11-24T12:23:50.212261",
+  "config": {
+    "model_name": "Llama-3.2-1B-Instruct",
+    "max_steps": 60,
+    "learning_rate": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 16,
+    "batch_size": 2,
+    "gradient_accumulation_steps": 4
+  },
+  "metrics": {
+    "final_loss": 1.1773637771606444,
+    "total_steps": 60,
+    "training_time_seconds": 462.37197041511536,
+    "training_time_minutes": 7.70619950691859
+  },
+  "model_outputs": [
+    {
+      "question": "What is machine learning?",
+      "answer": "Machine learning is a type of artificial intelligence (AI) that allows computers to learn and improve their performance over time, without being explicitly programmed for each task. It involves training algorithms on large datasets to enable them to make predictions or decisions on new, unseen data. Machine learning is often used to analyze large amounts of data, identify patterns, and make predictions or recommendations."
+    },
+    {
+      "question": "Explain the difference between supervised and unsupervised learning.",
+      "answer": "Supervised learning involves training a model on a labeled dataset, where the correct output is already known. The goal is to learn a mapping between input data and output labels.\n\nUnsupervised learning, on the other hand, involves training a model on a labeled dataset but without any correct output. The goal is to discover patterns, relationships, or structures within the data.\n\nSupervised learning is often used for classification tasks, such as spam vs. non-spam emails, or disease vs. healthy individuals. Unsupervised learning is often used for dimensionality reduction, feature selection, or clustering tasks.\n\nFor example, consider a dataset of images with different labels. In supervised learning, the model would learn to map each image to its corresponding label. In uns"
+    },
+    {
+      "question": "What is overfitting and how can it be prevented?",
+      "answer": "Overfitting is a common problem in machine learning models, where the model is too specialized to the training data and fails to generalize well to new, unseen data. Overfitting occurs when the model is too complex and has too many parameters, leading to poor performance on unseen data.\n\nThere are several ways to prevent overfitting:\n\n1. **Regularization**: Regularization techniques, such as L1 and L2 regularization, can help reduce the complexity of the model and prevent overfitting.\n2. **Dropout**: Dropout is a technique used to prevent overfitting by randomly dropping out neurons during training.\n3. **Early Stopping**: Early stopping is a technique used to prevent overfitting by stopping the training process when the model"
+    },
+    {
+      "question": "Describe how neural networks work.",
+      "answer": "Neural networks are a type of machine learning model that mimics the structure and function of the human brain. They are composed of layers of interconnected nodes (neurons) that process and transform input data into output results.\n\nHere's a step-by-step explanation of how neural networks work:\n\n1. **Input Layer**: The input layer receives the input data, which is a set of inputs or features that the model is trying to predict or classify.\n2. **Hidden Layers**: The hidden layers are where the model performs the actual calculations and transformations. Each hidden layer has a fixed number of nodes (neurons) and a specific type of node (e.g., sigmoid, ReLU, or tanh).\n3. **Output Layer**: The output layer"
+    },
+    {
+      "question": "What is the purpose of a validation set?",
+      "answer": "A validation set is a set of validation rules that are used to validate data in a web application. It is used to ensure that the data being entered into the application is correct and consistent. The purpose of a validation set is to check that the data being entered is valid, and to prevent errors such as duplicate records or invalid data from being entered.\n\nFor example, if you are building a login form, you might create a validation set to check that the username and password are both valid. If the username or password is invalid, the form will not allow the user to submit it, and an error message will be displayed.\n\nValidation sets are typically created using a tool such as a validation framework or a library, and they are often used in conjunction with"
+    }
+  ]
+}
