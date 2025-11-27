@@ -48,11 +48,22 @@ Conducted systematic experiments on three dimensions:
    - Result: Larger rank (r=32) improved by 1.4%
    - Conclusion: Better capacity with minimal time overhead
 
-### Data-Centric Analysis
-- **Dataset**: FineTome-100k contains 100k instruction-response pairs
-- **Observation**: Quality varies; some samples are very short/simple
-- **Potential Improvement**: Could filter by quality metrics (perplexity, length)
-- **Future Work**: Add domain-specific data for specialized tasks
+### Data-centric Analysis
+
+Compared model performance on different datasets (500 steps, same hyperparameters):
+
+| Dataset | Final Loss | Improvement vs Alpaca | Avg Sample Length | Training Time |
+|---------|-----------|----------------------|-------------------|---------------|
+| FineTome-100k | **0.972** | - | 2583 chars | 22.6 min |
+| Alpaca | 1.174 | - | 1324 chars | 9.6 min |
+
+**Key Findings:**
+- **FineTome achieves 21% better loss** than Alpaca
+- Longer, more detailed samples (2x length) lead to better learning
+- Trade-off: Better quality requires 2.3x more training time
+- **Conclusion:** Dataset quality significantly impacts model performance
+
+**Recommendation:** FineTome-100k selected for final model due to superior convergence.
 
 ### Optimal Configuration (exp9)
 Combining all best parameters:
