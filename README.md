@@ -52,10 +52,10 @@ Conducted systematic experiments on three dimensions:
 
 Compared model performance on different datasets (500 steps, same hyperparameters):
 
-| Dataset | Final Loss | Improvement vs Alpaca | Avg Sample Length | Training Time |
+| Dataset | Final Loss | Avg Sample Length | Training Time |
 |---------|-----------|----------------------|-------------------|---------------|
-| FineTome-100k | **0.972** | - | 2583 chars | 22.6 min |
-| Alpaca | 1.174 | - | 1324 chars | 9.6 min |
+| FineTome-100k | **0.972** | 2583 chars | 22.6 min |
+| Alpaca | 1.174 | 1324 chars | 9.6 min |
 
 **Key Findings:**
 - **FineTome achieves 21% better loss** than Alpaca
@@ -91,6 +91,7 @@ Combining all best parameters:
 │   ├── exp9_optimal_combination.json
 │   └── EXPERIMENT_REPORT.md
 │   └── experiment_comparison.png
+│   └── data_comparison.csv
 ├── notebooks/
 │   └── lab2.ipynb
 │   └── lab2_experiment.ipynb
